@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # ============================================================
 #   ONLINE FRAUD DETECTION SYSTEM - STREAMLIT UI
-#   Student : Sakshi
+#   Student : kumkum
 #   College : Gautam Buddha University
 #   Run     : streamlit run app.py
 # ============================================================
@@ -17,14 +17,14 @@ import matplotlib.pyplot as plt
 
 # ── Page Config ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="Fraud Detection | Sakshi | GBU",
+    page_title="Fraud Detection | kumkum | GBU",
     page_icon="🛡️",
     layout="wide"
 )
 
 # ── Header ───────────────────────────────────────────────────
 st.title("🛡️ Online Fraud Detection System")
-st.markdown("**Sakshi &nbsp;|&nbsp; Gautam Buddha University &nbsp;|&nbsp; B.Tech CSE (AI) &nbsp;|&nbsp; Machine Learning Project 2024-25**")
+st.markdown("**kumkum &nbsp;|&nbsp; Gautam Buddha University &nbsp;|&nbsp; B.Tech CSE (AI) &nbsp;|&nbsp; Machine Learning Project 2024-25**")
 st.markdown("---")
 
 # ── Load Model ───────────────────────────────────────────────
@@ -42,7 +42,7 @@ if model is None:
 # ── Sidebar ──────────────────────────────────────────────────
 st.sidebar.title("📊 Project Info")
 st.sidebar.markdown("""
-**Student:** Sakshi  
+**Student:** kumkum  
 **College:** Gautam Buddha University  
 **Program:** B.Tech CSE (AI)  
 **Year:** 2024-25  
@@ -230,7 +230,7 @@ with tab2:
     colors      = ["#E74C3C", "#3498DB", "#9B59B6", "#2ECC71", "#F39C12"]
 
     bars = axes[0].bar(models_list, accuracy, color=colors, edgecolor="white", width=0.6)
-    axes[0].set_title("Accuracy (%) - Sakshi's Results", fontweight="bold")
+    axes[0].set_title("Accuracy (%) - kumkum's Results", fontweight="bold")
     axes[0].set_ylim(92, 100.8)
     axes[0].set_ylabel("Accuracy (%)")
     for bar, val in zip(bars, accuracy):
@@ -322,6 +322,6 @@ with tab3:
 # ── Footer ───────────────────────────────────────────────────
 st.markdown("---")
 st.markdown(
-    "*🛡️ Online Fraud Detection System &nbsp;|&nbsp; Sakshi &nbsp;|&nbsp; "
+    "*🛡️ Online Fraud Detection System &nbsp;|&nbsp; kumkum &nbsp;|&nbsp; "
     "Gautam Buddha University &nbsp;|&nbsp; B.Tech CSE (AI) &nbsp;|&nbsp; 2024-25*"
 )
